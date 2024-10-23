@@ -1,0 +1,10 @@
+{
+    "name": "Python Weather Monitoring",
+    "dockerFile": "./Dockerfile",
+    "extensions": ["ms-python.python"],
+    "settings": {
+      "python.pythonPath": "/usr/local/bin/python"
+    },
+    "postCreateCommand": "pip install -r requirements.txt"
+  }
+  
